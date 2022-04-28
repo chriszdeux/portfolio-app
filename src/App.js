@@ -1,4 +1,5 @@
 import { About } from './components/about';
+import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Navbar } from './components/header/index';
 import { BottomFade } from './components/helpers/BottomFade';
@@ -15,9 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <About />
-      <BottomFade style={{
-        position: 'fixed'
-      }}/>
+      <Footer />
     </div>
   );
 }
