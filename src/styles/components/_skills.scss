@@ -1,0 +1,116 @@
+.skills {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  div {
+    .skill__list {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      li {
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 1rem;
+        outline: 1px solid $secondary-color;
+        // border-radius: .5rem;
+        position: relative;
+        box-shadow: 0 0 17px -5px $secondary-color;
+        cursor: pointer;
+        transition: .5s linear;
+        .icon {
+          font-size: $jumbo-font;
+          // color: $secondary-color;
+          // border-radius: 50%;
+          // box-shadow: 0 0 17px -5px $secondary-color;
+          
+        }
+        h3 {
+          width: 80%;
+          height: 3rem;
+          // padding: 0 1rem;
+          position: absolute;
+          left: 50%;
+          bottom: -10%;
+          transform: translateX(-50%);
+          background-color: $background-color;
+          color: $main-color;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+  
+        &:hover {
+          transform: scale(1.1) translateY(-1rem);
+          animation-name: shadow;
+          animation-duration: .3s;
+          animation-iteration-count: infinite;
+          // width: 15rem;
+          // margin-right: 3rem;
+        }
+      }
+    }
+    
+    figure {
+      // width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      opacity: .2;
+      img {
+        width: 100%;
+        height: inherit;
+      }
+    }
+  }
+}
+
+// @keyframes shadow {
+//   0% {
+//     box-shadow: 0 0 6px -5px $secondary-color;
+//   }
+//   50% {
+//     box-shadow:  0 0 15px -5px $secondary-color;
+    
+//   }
+//   100% {
+//     box-shadow: 0 0 6px -5px $secondary-color;
+//     // box-shadow:  0 0 15px -5px $secondary-color;
+    
+//   }
+  
+// }
+@keyframes shadow {
+  0% {
+    box-shadow: -10px 0 6px -5px $secondary-color;
+    // border-left: 1px solid $third-color;
+  }
+  25% {
+    box-shadow: 0 -10px 6px -5px $secondary-color;
+    // border-top: 1px solid $third-color;
+  }
+  50% {
+    box-shadow: 10px 0 6px -5px $secondary-color;
+    // border-right: 1px solid $third-color;
+  }
+  75% {
+    box-shadow: 0 10px 6px -5px $secondary-color;
+    // border-bottom: 1px solid $third-color;
+  }
+  100% {
+    box-shadow: -10px 0 6px -5px $secondary-color;
+    // border-left: 1px solid $third-color;
+
+  }
+  
+}
