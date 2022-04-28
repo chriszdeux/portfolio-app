@@ -1,5 +1,5 @@
 import React from 'react'
-import { BottomFade } from '../divider/BottomFade'
+import { BottomFade } from '../helpers/BottomFade'
 
 export const ProjectInfo = ({ project }) => {
   const { name, cover_image, description, gallery, work_in_progress } = project

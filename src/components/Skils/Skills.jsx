@@ -1,7 +1,6 @@
 import React from 'react'
-import { skillsData } from '../../utils/data/skillsData'
-import { BottomFade } from '../divider/BottomFade'
-import { Divider } from '../divider/Divider'
+import { BottomFade,  } from '../helpers/BottomFade'
+import { Divider } from '../helpers/Divider'
 import { ListSkills } from './ListSkills'
 
 export const Skills = () => {
@@ -14,7 +13,6 @@ export const Skills = () => {
           <img src="https://thumbs.dreamstime.com/b/neoned-lines-futuristic-aesthetics-glowing-neon-futuristic-style-smoked-dark-background-wallpaper-background-blue-navy-neoned-200395120.jpg" alt="" />
           <BottomFade />
       </figure>
-
       </div>
     </section>
   )

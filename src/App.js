@@ -1,5 +1,7 @@
+import { About } from './components/about';
 import { Header } from './components/header';
 import { Navbar } from './components/header/index';
+import { BottomFade } from './components/helpers/BottomFade';
 import { Hero } from './components/hero';
 import { Projects } from './components/projects';
 import { Skills } from './components/Skils/Skills';
@@ -12,6 +14,10 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <About />
+      <BottomFade style={{
+        position: 'fixed'
+      }}/>
     </div>
   );
 }

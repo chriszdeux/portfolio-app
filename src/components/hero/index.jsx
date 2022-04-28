@@ -1,6 +1,6 @@
 import React from 'react';
 import { aboutMeData } from '../../utils/data/aboutData';
-import { BottomFade } from '../divider/BottomFade';
+import { BottomFade } from '../helpers/BottomFade';
 export const Hero = () => {
   const { contact } = aboutMeData
   return (

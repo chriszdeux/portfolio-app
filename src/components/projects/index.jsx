@@ -1,6 +1,6 @@
 import React from 'react'
 import { projects } from '../../utils/data/projectsData'
-import { Divider } from '../divider/Divider'
+import { Divider } from '../helpers/Divider'
 import { ProjectCard } from './ProjectCard'
 
 export const Projects = () => {

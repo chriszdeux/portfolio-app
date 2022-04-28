@@ -51,7 +51,7 @@
         &:hover {
           transform: scale(1.1) translateY(-1rem);
           animation-name: shadow;
-          animation-duration: .3s;
+          animation-duration: 5s;
           animation-iteration-count: infinite;
           // width: 15rem;
           // margin-right: 3rem;
@@ -104,7 +104,7 @@
     // border-right: 1px solid $third-color;
   }
   75% {
-    box-shadow: 0 10px 6px -5px $secondary-color;
+    box-shadow: 0 5px 6px -5px $secondary-color;
     // border-bottom: 1px solid $third-color;
   }
   100% {

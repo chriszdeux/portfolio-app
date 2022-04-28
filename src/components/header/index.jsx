@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import { Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
 import { icons } from '../../utils/icons/icons';
-import { TopFade } from '../divider/TopFade';
-import { MenuFade } from '../divider/MenuFade';
+import { MenuFade } from '../helpers/MenuFade';
 
 const pages = ['Skills', 'Projects', 'About', 'Interested', 'Contact']
 export const Navbar = () => {
