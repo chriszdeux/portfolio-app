@@ -7,8 +7,9 @@
     width: 30%;
     height: 1px;
     border: 1px solid $secondary-color;
+    border-radius: 1rem;
     box-shadow: 0 0 17px 1px $secondary-color;
-    filter: blur(1px);
+    // filter: blur(1px);
   }
 
   h2 {
@@ -17,6 +18,21 @@
     font-size: $jumbo-font;
   }
 
+}
+
+.full--divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  canvas {
+    width: 80%;
+    height: 1px;
+    border: 1px solid $secondary-color;
+    border-radius: 1rem;
+    box-shadow: 0 0 17px 1px $secondary-color;
+    // filter: blur(1px);
+  }
 }
 
 .menu--fade {

@@ -3,6 +3,8 @@ import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@
 import { personal_styles } from '../../utils/styles'
 import { ProjectInfo } from './ProjectInfo'
 import { ProjectTechnologies } from './ProjectTechnologies'
+import { Divider } from '../helpers/Divider'
+import { FullDivider } from '../helpers/FullDivider'
 
 export const ProjectCard = ({project}) => {
   // const {
@@ -17,6 +19,7 @@ export const ProjectCard = ({project}) => {
   return (
     <article className='project__card'>
       <ProjectInfo project={ project }/>
+      <FullDivider/>
       <ProjectTechnologies project={ project }/>
     </article>
   )

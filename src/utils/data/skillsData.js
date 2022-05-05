@@ -157,7 +157,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#72B254',
-    delay: '3.7s',
+    delay: '4s',
     learned: true,
   },
   {
@@ -167,7 +167,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#e2e2e2',
-    delay: '3.7s',
+    delay: '4.3s',
     learned: true,
   },
   {
@@ -177,7 +177,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#3C9237',
-    delay: '3.7s',
+    delay: '4.6s',
     learned: false,
   },
   {
@@ -187,7 +187,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#2F74C0',
-    delay: '3.7s',
+    delay: '4.9s',
     learned: false,
   },
   {
@@ -197,7 +197,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#BF3B14',
-    delay: '3.7s',
+    delay: '5.2s',
     learned: false,
   },
 

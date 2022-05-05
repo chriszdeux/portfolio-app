@@ -1,10 +1,13 @@
 import React from 'react'
 import { aboutMeData } from '../../utils/data/aboutData'
 import { icons } from '../../utils/icons/icons'
+import { FullDivider } from '../helpers/FullDivider'
 
 export const Footer = () => {
   const { contact } = aboutMeData
   return (
+    <>
+      <FullDivider />
     <section className='footer'>
       <h2>
         This website was made with React 
@@ -27,5 +30,6 @@ export const Footer = () => {
         }
       </div>
     </section>
+          </>
   )
 }
