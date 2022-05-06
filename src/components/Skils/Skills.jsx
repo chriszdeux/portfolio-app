@@ -5,7 +5,7 @@ import { ListSkills } from './ListSkills'
 
 export const Skills = () => {
   return (
-    <section className='skills'>
+    <section className='skills container'>
       <Divider section="My Skills"/>
       <div>
         <ListSkills />

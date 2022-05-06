@@ -1,5 +1,5 @@
 .skills {
-  width: 100%;
+  // width: 100%;
   padding: 1rem;
   text-align: center;
   position: relative;
@@ -51,7 +51,7 @@
         &:hover {
           transform: scale(1.1) translateY(-1rem);
           animation-name: shadow;
-          animation-duration: 5s;
+          animation-duration: .2s;
           animation-iteration-count: infinite;
           // width: 15rem;
           // margin-right: 3rem;
@@ -92,23 +92,23 @@
 // }
 @keyframes shadow {
   0% {
-    box-shadow: -10px 0 6px -5px $secondary-color;
+    box-shadow: -10px 0 6px -5px rgba($secondary-color, .5);
     // border-left: 1px solid $third-color;
   }
   25% {
-    box-shadow: 0 -10px 6px -5px $secondary-color;
+    box-shadow: 0 -10px 6px -5px rgba($secondary-color, .6);
     // border-top: 1px solid $third-color;
   }
   50% {
-    box-shadow: 10px 0 6px -5px $secondary-color;
+    box-shadow: 10px 0 6px -5px rgba($secondary-color, .3);
     // border-right: 1px solid $third-color;
   }
   75% {
-    box-shadow: 0 5px 6px -5px $secondary-color;
+    box-shadow: 0 5px 6px -5px rgba($secondary-color, .2);
     // border-bottom: 1px solid $third-color;
   }
   100% {
-    box-shadow: -10px 0 6px -5px $secondary-color;
+    box-shadow: -10px 0 6px -5px rgba($secondary-color, .5);
     // border-left: 1px solid $third-color;
 
   }

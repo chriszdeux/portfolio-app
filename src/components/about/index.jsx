@@ -6,7 +6,7 @@ import { AboutMeDisplay } from './AboutMeDisplay'
 
 export const About = () => {
   return (
-    <section className='about'>
+    <section className='about container'>
       <Divider section="About"/>
       <div className='about__me'>
         <AboutContent />

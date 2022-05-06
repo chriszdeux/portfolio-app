@@ -9,3 +9,16 @@
 @import './components/about';
 @import './components/footer';
 
+@import './queries/skills-query';
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media only screen and ( min-width: 1600px ) {
+  .container {
+    width: 60%;
+  }
+}

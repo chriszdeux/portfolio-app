@@ -5,7 +5,7 @@ import { ProjectCard } from './ProjectCard'
 
 export const Projects = () => {
   return (
-    <section className='projects'>
+    <section className='projects container'>
      <Divider section="Projects"/>
      <ul className='project__cards'>
        {
