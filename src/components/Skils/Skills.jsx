@@ -6,7 +6,8 @@ import { ListSkills } from './ListSkills'
 export const Skills = () => {
   return (
     <section className='skills container'>
-      <Divider section="My Skills"/>
+      <Divider section="Skills"/>
+      <h2>Technologies with which I've worked</h2>
       <div>
         <ListSkills />
         <figure>

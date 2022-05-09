@@ -7,10 +7,14 @@ export const ListSkills = () => {
         {
           skillsData.map(skill => (
             <li 
-              style={{ color: `${ skill.color }` }}
+              // style={{ color: `${ skill.color }` }}
               >
-                { skill.icon }
-              <h3>{ skill.name }</h3>
+                { skill.name }
+                <span style={{ color: `${ skill.color }` }}>
+                  { skill.icon }
+                </span>
+                {/* 
+              <h3>{ skill.name }</h3> */}
             </li>
           ))
         }

@@ -6,32 +6,48 @@
   div {
     .skill__list {
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-  
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      // text-align: center;
+      // flex-direction: column;
+      // height: 20rem;
+      // justify-content: center;
+      // align-items: center;
+      // flex-wrap: wrap;
+      width: 100%;
+      
       li {
-        width: 9rem;
-        height: 10rem;
+        width: auto;
+        height: auto;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: start;
+        font-size: $regular-font;
         margin: 1rem;
-        outline: 1px solid $secondary-color;
-        // border-radius: .5rem;
-        position: relative;
-        box-shadow: 0 0 17px -5px $secondary-color;
+        // height: 10rem;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        // text-align: center;
+        // margin: 1rem;
+        // outline: 1px solid $secondary-color;
+        // // border-radius: .5rem;
+        // position: relative;
+        // box-shadow: 0 0 17px -5px $secondary-color;
         cursor: pointer;
-        transition: .5s linear;
-        .icon {
-          font-size: $jumbo-font;
-          // color: $secondary-color;
-          // border-radius: 50%;
-          // box-shadow: 0 0 17px -5px $secondary-color;
-          
+        // transition: .5s linear;
+        span {
+          .icon {
+            font-size: $regular-font;
+            margin-left: 1rem;
+            // color: $secondary-color;
+            // border-radius: 50%;
+            // box-shadow: 0 0 17px -5px $secondary-color;
+            
+          }
         }
         h3 {
           width: 80%;
@@ -48,14 +64,14 @@
           justify-content: center;
         }
   
-        &:hover {
-          transform: scale(1.1) translateY(-1rem);
-          animation-name: shadow;
-          animation-duration: .2s;
-          animation-iteration-count: infinite;
-          // width: 15rem;
-          // margin-right: 3rem;
-        }
+        // &:hover {
+        //   transform: scale(1.1) translateY(-1rem);
+        //   animation-name: shadow;
+        //   animation-duration: .2s;
+        //   animation-iteration-count: infinite;
+        //   // width: 15rem;
+        //   // margin-right: 3rem;
+        // }
       }
     }
     

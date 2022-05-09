@@ -1,4 +1,5 @@
 import React from 'react';
+import { randomId } from '../../functions/randomId';
 import { icons } from '../icons/icons';
 
 const { 
@@ -16,10 +17,15 @@ const {
   mongo_icon,
   typescript_icon,
   jest_icon,
-  git_icon } = icons
+  git_icon ,
+  material_icon,
+  terminal_icon,
+  api_icon,
+  bootstrap_icon  
+} = icons
 export const skillsData = [
   {
-    id: 1,
+    id:randomId(),
     icon: html_icon,
     name: 'HTML',
     description: `
@@ -28,11 +34,10 @@ export const skillsData = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
     color: '#d84b24',
     delay: '1s',
-    learned: true,
   },
 
   {
-    id: 2,
+    id:randomId(),
     icon: css_icon,
     name: 'CSS',
     description: `
@@ -41,11 +46,10 @@ export const skillsData = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     color: '#2B6CAD',
     delay: '1.3s',
-    learned: true,
   },
 
   {
-    id: 3,
+    id:randomId(),
     icon: javascript_icon,
     name: 'Javascript',
     description: `
@@ -54,11 +58,10 @@ export const skillsData = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     color: '#ffe047',
     delay: '1.6s',
-    learned: true,
   },
 
   {
-    id: 4,
+    id:randomId(),
     icon: sass_icon,
     name: 'Sass',
     description: `
@@ -67,11 +70,10 @@ export const skillsData = [
     url: 'https://sass-lang.com/documentation',
     color: '#C26191',
     delay: '1.9s',
-    learned: true,
   },
 
   {
-    id: 5,
+    id:randomId(),
     icon: react_icon,
     name: 'React Js',
     description: `
@@ -80,11 +82,10 @@ export const skillsData = [
     url: 'https://reactjs.org/docs/getting-started.html',
     color: '#58DAFB',
     delay: '2.2s',
-    learned: true,
   },
 
   {
-    id: 6,
+    id:randomId(),
     icon: redux_icon,
     name: 'React Redux',
     description: `
@@ -93,12 +94,11 @@ export const skillsData = [
     url: 'https://react-redux.js.org/',
     color: '#764ABC',
     delay: '2.5s',
-    learned: true,
   },
 
 
   {
-    id: 7,
+    id:randomId(),
     icon: git_icon,
     name: 'Git',
     description: `
@@ -107,11 +107,10 @@ export const skillsData = [
     url: 'https://git-scm.com/',
     color: '#d84b24',
     delay: '2.8s',
-    learned: true,
   },
 
   {
-    id: 8,
+    id:randomId(),
     icon: github_icon,
     name: 'Github',
     description: `
@@ -120,12 +119,11 @@ export const skillsData = [
     url: 'https://github.com/',
     color: '#e2e2e2',
     delay: '3.1s',
-    learned: true,
   },
 
 
   {
-    id: 9,
+    id:randomId(),
     icon: npm_icon,
     name: 'NPM',
     description: `
@@ -135,11 +133,10 @@ export const skillsData = [
     url: 'https://www.npmjs.com/',
     color: '#C13534',
     delay: '3.4s',
-    learned: true,
   },
 
   {
-    id: 10,
+    id: randomId(),
     icon: debbug_icon,
     name: 'Dev-Tools',
     description: `
@@ -148,57 +145,87 @@ export const skillsData = [
     url: 'https://developer.chrome.com/docs/devtools/',
     color: '#3A92FF',
     delay: '3.7s',
-    learned: true,
   },
   {
-    id: 11,
+    id: randomId(),
     icon: node_icon,
     name: 'NodeJS',
     description: ``,
     url: '',
     color: '#72B254',
     delay: '4s',
-    learned: true,
   },
   {
-    id: 12,
+    id: randomId(),
     icon: express_icon,
     name: 'Express',
     description: ``,
     url: '',
     color: '#e2e2e2',
     delay: '4.3s',
-    learned: true,
   },
   {
-    id: 13,
+    id: randomId(),
     icon: mongo_icon,
     name: 'MongoDB',
     description: ``,
     url: '',
     color: '#3C9237',
     delay: '4.6s',
-    learned: false,
   },
   {
-    id: 14,
+    id: randomId(),
     icon: typescript_icon,
     name: 'TypeScript',
     description: ``,
     url: '',
     color: '#2F74C0',
     delay: '4.9s',
-    learned: false,
   },
   {
-    id: 15,
+    id: randomId(),
     icon: jest_icon,
     name: 'Jest',
     description: ``,
     url: '',
     color: '#BF3B14',
     delay: '5.2s',
-    learned: false,
+  },
+  {
+    id: randomId(),
+    icon: material_icon,
+    name: 'Material UI',
+    description: ``,
+    url: '',
+    color: '#0076ED',
+    delay: '5.5s',
+  },
+  {
+    id: randomId(),
+    icon: bootstrap_icon,
+    name: 'Bootstrap',
+    description: ``,
+    url: '',
+    color: '#0076ED',
+    delay: '5.8s',
+  },
+  {
+    id: randomId(),
+    icon: api_icon,
+    name: 'REST Api',
+    description: ``,
+    url: '',
+    color: '#0076ED',
+    delay: '6.1s',
+  },
+  {
+    id: randomId(),
+    icon: terminal_icon,
+    name: 'Terminal',
+    description: ``,
+    url: '',
+    color: '#0076ED',
+    delay: '6.4s',
   },
 
 

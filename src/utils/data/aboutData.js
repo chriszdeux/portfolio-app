@@ -1,11 +1,12 @@
+import { randomId } from "../../functions/randomId";
 import { icons } from "../icons/icons";
 
 export const aboutMeData = {
   about_me: `
-    Hi I'm Christian a React frontend. The reason why I chose this branch of programming is because I like to work on the visual side of projects but at the same time I like the code. In the near future I would not only like to be a frontend developer, I would like to be an engineer in this field.
-    I have been involved in the world of programming for approximately 9 years when I was studying Video Game Engineering, which I stopped for personal reasons. Two and a half years ago I resumed programming and trained with courses, documentation and in some cases answering questions in Facebook groups.
-    During this time I learned to handle HTML5 and CSS3 quite well, working in the way that is recommended using the appropriate tags for each case and always thinking that the application is responsive at all times. I also learned how to use the React library along with its hooks and state handlers, API calls.
-    I consider myself a person who likes to always be mentally active.. My next step in this field is to become a Fullstack MERN.
+  My name is Christian Meza and I am a front end developer with a special focus on React js. The reason that motivated me to start programming and what continues to motivate me today is that I can create things that solve problems for people and also work on your creativity.
+  What I program can be seen and worked with visually.\n
+  
+  I am a person who always likes to analyze the situation before making a decision and once I have several possible answers I always lean towards the one that I think is the most optimal at the moment. I seek to implement more things as they are required and this makes me constantly learn.
   `,
   short_version: `I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
   
@@ -14,108 +15,139 @@ export const aboutMeData = {
   I know that I can be an important member of a team, if I am assigned a task I'll do it`,
   my_skills: [
     {
+      id: randomId(),
       skill: 'HTML',
+      more: 'Maintaining the use of the appropriate tags.',
       // list: []
     },
     {
+      id: randomId(),
       skill: 'CSS',
-      list: ['Flex-Box', 'Grid', 'Animations', 'Media Queries', 'Responsive Design', 'Mobile First']
+      more: `Styling and positioning using flex-box, grid.
+      Also, the use of media-queries for responsive handling
+      and the use of animations and transitions. `,
     },
     {
+      id: randomId(),
       skill: 'Javascript',
-      list: ['ES5', 'ES6']
+      more: `ECMAScript 6+, OOP, Closures, Scope, Async
+      Await, REST API. `,
     },
     {
-      skill: 'React',
-      list: ['Hooks', 'Context', 'React-router', 'React-redux']
+      id: randomId(),
+      skill: 'TypeScript',
+      more: null,
     },
     {
+      id: randomId(),
       skill: 'SASS',
+      more: `Variables, Nesting, Partials, Modules, Mixins,
+      Extend/Inheritance and Operators. `,
       // list: []
     },
     {
+      id: randomId(),
+      skill: 'React',
+      more: `Functional components, use hooks like: useState,
+      useEffect, useMemo, useCallback, useReducer,useRef, react-router, Context, react-redux, lazy-load, and custom hooks. `,
+    },
+    {
+      id: randomId(),
       skill: 'Node Js',
+      more: `As a backend for integration with my frontend,
+      resolving errors, maintaining status codes, microservices
+      and giving routes to my endpoints. `,
       // list: []
     },
     {
+      id: randomId(),
       skill: 'Express',
-      list: ['Routing', 'MiddleWares']
+      more: ``,
     },
     {
+      id: randomId(),
+      skill: 'MongoDB',
+      more: ``,
+    },
+    {
+      id: randomId(),
       skill: 'Dev-Tools',
-      list: ['Chrome-Dev-Tools', 'Firefox-Dev-Tools']
+      more: `Chrome-dev-tools to debug my code, have a status
+      of my project and have a bigger picture when I get an
+      error. `,
     },
     {
+      id: randomId(),
       skill: 'NPM',
+      more: ``,
       // list: []
     },
     {
-      skill: 'Control Versions',
-      list: ['Git', 'GitHub']
+      id: randomId(),
+      skill: 'Source Control Versions',
+      more: ``,
     },
     {
+      id: randomId(),
       skill: 'Deploy Projects',
-      list: ['GitHub Pages', 'Heroku']
+      more: `Git/GitHub. `,
     },
     {
+      id: randomId(),
       skill: 'APIs',
+      more: ``,
       // list: []
     },
     // {
+      // id: randomId(),
     //   skill: 'Google',
     //   list: ['Not only looking for the solution is important, analyzing and understanding is essential']
     // },
   ],
 
   softSkills: [
-    'Teamwork',
-    'Responsable',
-    'Resolve internal conflict efficiently',
-    'Critical thinking',
+    'Critical Thinking',
+    'Friendly, Positive Attitude',
+    'Organizational Skills',
+    'Conflict Resolution',
+    'Spanish / English',
+    'Problem Resolution',
+    'Attention to Detail',
   ],
 
-  work_experience: `I still don't have experience in the field, however when I carried out my projects I learned a lot.
-  In each project I found a different way of working, I was adding more and more functions and getting more and more errors for which I give thanks for Dev-Tools.`,
+  work_experience: [
+    {
+      job_title: `Call City`,
+      description: `In this company I had the role as a frontend developer where I was only in charge of making
+      the frontend and connecting it with a database. Here I work with html, css and php.`,
+      start_date: `November/2013`,
+      end_date: `February/2014`
+    },
+    {
+      job_title: `Boiler Ochoa`,
+      description: `In this company I had the role of systems manager, I was in control of the website, the server
+      and the networks. As well as helping the boss solve remote problems. `,
+      start_date: `April/2014`,
+      end_date: `November/2016`
+    },
+    {
+      job_title: `Community`,
+      description: `I also supported several Startups in a community called HackerGarage that was located in
+      Mexico. Many projects never materialized in some I had to leave the project. In this community I also
+      learned many skills such as how to work as a team, contribute ideas, how to work correctly with other
+      fields.`,
+      start_date: `2016`,
+      end_date: null
+    },
+  ],
 
   hobbies: [
-    {
-      hobbie: 'Videogames',
-      list_hobbie: [
-        'Halo',
-        'Starcraft',
-        'Skyline Cities',
-        'Forza',
-      ]
-    },
-    {
-      hobbie: 'Sometimes I like to take pictures and play with design programs.',
-      // list_hobbie: []
-    },
-    {
-      hobbie: 'Curiosities about the origin of everything.',
-      // list_hobbie: []
-    },
-    {
-      hobbie: 'Animes',
-      list_hobbie: [
-        'Full Metal Alchemist',
-        'Attack on Titan',
-        'Naruto',
-        'Monster',
-      ]
-    },
-    {
-      hobbie: 'Lately I learn how the world of cryptocurrencies works.',
-      // list_hobbie: []
-    },
-    {
-      hobbie: 'Going for a walk in the afternoon helps me a lot to clear my mind.',
-      // list_hobbie: []
-    },
-    {
-      hobbie: 'Lecture.',
-      // list_hobbie: []
-    },
+    'Lecture',
+    'Walk in the evenings with my wife',
+    'Watch animes with good narrative stories',
+    'Insvestments, in special cryptocurrencies',
+    'I love dogs ( I have 3 :) )',
+    '',
   ],
   contact: [
     {

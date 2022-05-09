@@ -5,6 +5,8 @@ import { ProjectInfo } from './ProjectInfo'
 import { ProjectTechnologies } from './ProjectTechnologies'
 import { Divider } from '../helpers/Divider'
 import { FullDivider } from '../helpers/FullDivider'
+import { ProjectDescription } from './ProjectDescription'
+import { TechnologiesUsed } from './TechnologiesUsed'
 
 export const ProjectCard = ({project}) => {
   // const {
@@ -15,12 +17,17 @@ export const ProjectCard = ({project}) => {
   //   technologies,
   //   description
   // } = project
+  const { technologies, name } = project
   const { main_color, secondary_color, background_color } = personal_styles
   return (
     <article className='project__card'>
+      <h2 className='project--name'>{ name }</h2>
       <ProjectInfo project={ project }/>
-      <FullDivider/>
-      <ProjectTechnologies project={ project }/>
+      <div className='project__info'>
+        <ProjectDescription project={ project }/>
+        <TechnologiesUsed project={ project }/>
+        {/* <h3 onClick={ handleOpenGallery }>Gallery</h3> */}
+      </div>
     </article>
   )
 }
