@@ -137,7 +137,7 @@ export const aboutMeData = {
       learned many skills such as how to work as a team, contribute ideas, how to work correctly with other
       fields.`,
       start_date: `2016`,
-      end_date: null
+      end_date: `2017`
     },
   ],
 
@@ -160,6 +160,12 @@ export const aboutMeData = {
       name: 'Instagram',
       icon: icons.instagram_icon,
       link: 'https://www.instagram.com/chriszdeux/',
+      color: '#D62977'
+    },
+    {
+      name: 'GitHub',
+      icon: icons.github_icon,
+      link: 'https://www.github.com/chriszdeux/',
       color: '#D62977'
     },
   ],

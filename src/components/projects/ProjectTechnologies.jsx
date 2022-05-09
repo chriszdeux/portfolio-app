@@ -16,19 +16,6 @@ export const ProjectTechnologies = ({project}) => {
           ))
         }
       </ul>
-      <div className='project__links'>
-        
-          {/* <div onClick={ handleOpenGallery }>
-            { icons.gallery_icon }
-          </div> */}
-          <a href={ link } target="_blank" rel="noreferrer">
-          { live_icon }
-          </a>
-                 <a href={ repository } target="_blank" rel="noreferrer">
-          { github_icon }
-          </a>
-      
-      </div>
     </div>
   )
 }

@@ -59,3 +59,107 @@
   top: -1rem;
   background: $top-fade;
 }
+
+.right--fade {
+  width: 15rem;
+  height: inherit;
+  position: absolute;
+  right: -1rem;
+  bottom: 0;
+  background: $rigth-fade;
+}
+
+.light--background {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid $secondary-color;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  opacity: 0.1;
+  z-index: -1;
+  animation: background-circle infinite 10s linear alternate;
+  // border-radius: 50%;
+
+  .circle--01 {
+    position: absolute;
+    left: -.5rem;
+    top: -.5rem;
+    border: 1px solid $secondary-color;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: $background-color;
+  }
+  .circle--02 {
+    position: absolute;
+    left: -.5rem;
+    bottom: -.5rem;
+    // transform: translate(-50%, -50%);
+    border: 1px solid $secondary-color;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: $background-color;
+  }
+  .circle--03 {
+    position: absolute;
+    right: -.5rem;
+    top: -.5rem;
+    border: 1px solid $secondary-color;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: $background-color;
+  }
+  .circle--04 {
+    position: absolute;
+    right: -.5rem;
+    bottom: -.5rem;
+    border: 1px solid $secondary-color;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: $background-color;
+  }
+}
+
+.side__bars {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .5;
+  .left {
+    width: 1px;
+    // height: 50vh;
+    border: 1px solid $secondary-color;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    box-shadow: $box-shadow;
+  }
+  .right {
+    width: 1px;
+    // height: 50vh;
+    border: 1px solid $secondary-color;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    box-shadow: $box-shadow;
+  }
+}
+
+@keyframes background-circle {
+  0% {
+    transform: translate(-50%, -50%) scale(2) rotate(0deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2) rotate(365deg);
+    border-radius: 10%;
+  }
+}

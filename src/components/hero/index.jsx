@@ -13,10 +13,11 @@ export const Hero = () => {
     }, 4000);
   }, [  ])
   return (
-    <main className='hero'>
+    <main className='hero container'>
       <div className='hero__content'>
-        <h2>Hi, my name is Christian </h2>
-        <p>A React Web developer</p>
+        <h3>Hi, my name is</h3>
+        <h2>Christian Meza</h2>
+        <p>I'm a frontend developer currently focusing on React, <span>I love bringing new projects to life.</span></p>
         <ul className='hero__contact__list'>
           {
             contact.map(contact => (
@@ -29,7 +30,7 @@ export const Hero = () => {
           }
         </ul>
       </div>
-      <figure className='hero__image'>
+      {/* <figure className='hero__image'>
         {
           skillsData.map(skill => (
             <RandomSkills skill={ skill }/>
@@ -44,7 +45,7 @@ export const Hero = () => {
         }
         <img src="https://thumbs.dreamstime.com/b/neoned-lines-futuristic-aesthetics-glowing-neon-futuristic-style-smoked-dark-background-wallpaper-background-blue-navy-neoned-200395058.jpg" alt="" />
         <BottomFade />
-      </figure>
+      </figure> */}
     </main>
   )
 }

@@ -10,9 +10,9 @@ export const About = () => {
       <Divider section="About"/>
       <div className='about__me'>
         <AboutContent />
-        <AboutMeDisplay />
+        {/* <AboutMeDisplay /> */}
       </div>
-      <AboutInterest />
+      {/* <AboutInterest /> */}
     </section>
   )
 }

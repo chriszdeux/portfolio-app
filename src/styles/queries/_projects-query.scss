@@ -1,0 +1,80 @@
+@media only screen and ( min-width: 768px ) {
+  .projects {
+    .project__cards {
+      .project__card {
+        height: 40rem;
+        .project--name {
+          display: none;
+        }
+        .project__screenshot {
+          height: 40rem;
+          width: 70%;
+          filter: grayscale(1) blur(.3rem);
+        }
+        .project__info {
+          opacity: 1;
+          border: none;
+          right: 0;
+          width: 80%;
+          align-items: flex-start;
+
+          p {
+            text-align: start;
+          }
+        }
+
+        &:hover .project__screenshot{
+          filter: grayscale(0) blur(0);
+          opacity: 1;
+        }
+        &:hover .project__info{
+          width: 60%;
+        }
+
+        &:nth-child( even ) {
+          .project__screenshot {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+            .right--fade {
+              left: -1rem;
+              background: $left-fade;
+            }
+          }
+
+          .project__info {
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and ( min-width: 1440px ) {
+  .projects {
+    .project__cards {
+      .project__card {
+        // overflow: hidden;
+        .project--name {
+          display: none;
+        }
+        .project__info {
+          opacity: 1;
+          border: none;
+          right: 0;
+          width: 40%;
+          align-items: flex-end;
+
+          p {
+            text-align: end;
+          }
+        }
+        &:hover .project__info{
+          width: 30%;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BottomFade } from '../helpers/BottomFade'
+import { RightFade } from '../helpers/RightFade'
 import { ProjectDescription } from './ProjectDescription'
 import { TechnologiesUsed } from './TechnologiesUsed'
 
@@ -11,6 +12,7 @@ export const ProjectInfo = ({ project }) => {
       <figure className='project__screenshot' >
         <img  src={ cover_image } alt={ name } />
         <BottomFade />
+        <RightFade />
       </figure>
   )
 }

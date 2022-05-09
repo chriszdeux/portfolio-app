@@ -1,13 +1,16 @@
 
 $main-color: #FAFAFB;
 $secondary-color: #0AAEFE;
-$third-color: #60caff;
+$third-color: #acacac;
 $background-color: #04101B;
 $background2-color: #04101b96;
 
 $bottom-fade: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 60%);
 $top-fade: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+$rigth-fade: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+$left-fade: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
 
+$box-shadow: 0 0 17px 1px $secondary-color;
 $html-color: #d84b24;
 // $html-color-active: #D84B24;
 $css-color: #2B6CAD;

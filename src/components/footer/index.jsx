@@ -15,7 +15,7 @@ export const Footer = () => {
       <ul className='footer__contact'>
         {
           contact.map(contact => (
-            <a href={ contact.link }>
+            <a href={ contact.link } target="_blank" rel="noreferrer">
               <li>
                 { contact.icon }
                 {/* <span>{ contact.name }</span> */}

@@ -1,0 +1,21 @@
+@media only screen and ( min-width: 768px ) {
+.side__bars {
+  display: revert;
+
+  .left {
+    height: 30vh;
+  }
+
+  .right {
+    height: 30vh;
+  }
+}
+}
+
+@media only screen and ( min-width: 1600px ) {
+.side__bars {
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}

@@ -10,10 +10,10 @@ export const Skills = () => {
       <h2>Technologies with which I've worked</h2>
       <div>
         <ListSkills />
-        <figure>
+        {/* <figure>
           <img src="https://thumbs.dreamstime.com/b/neoned-lines-futuristic-aesthetics-glowing-neon-futuristic-style-smoked-dark-background-wallpaper-background-blue-navy-neoned-200395120.jpg" alt="" />
           <BottomFade />
-      </figure>
+      </figure> */}
       </div>
     </section>
   )

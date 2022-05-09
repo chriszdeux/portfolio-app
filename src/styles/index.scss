@@ -4,12 +4,16 @@
 
 @import './helpers';
 @import './components/hero';
+@import './components/experience';
 @import './components/skills';
 @import './components/projects';
 @import './components/about';
 @import './components/footer';
 
+@import './queries/hero-query';
 @import './queries/skills-query';
+@import './queries/projects-query';
+@import './queries/helpers-query';
 
 .container {
   width: 95%;
@@ -30,8 +34,23 @@
   outline: 1px solid $secondary-color;
   color: $secondary-color;
 }
+@media only screen and ( min-width: 768px ) {
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and ( min-width: 1024px ) {
+  .container {
+    width: 70%;
+  }
+}
 @media only screen and ( min-width: 1600px ) {
   .container {
     width: 60%;
+  }
+}
+@media only screen and ( min-width: 1920px ) {
+  .container {
+    width: 50%;
   }
 }
