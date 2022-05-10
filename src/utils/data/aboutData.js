@@ -121,14 +121,16 @@ export const aboutMeData = {
       description: `In this company I had the role as a frontend developer where I was only in charge of making
       the frontend and connecting it with a database. Here I work with html, css and php.`,
       start_date: `November/2013`,
-      end_date: `February/2014`
+      end_date: `February/2014`,
+      delay: '.4s'
     },
     {
       job_title: `Boiler Ochoa`,
       description: `In this company I had the role of systems manager, I was in control of the website, the server
       and the networks. As well as helping the boss solve remote problems. `,
       start_date: `April/2014`,
-      end_date: `November/2016`
+      end_date: `November/2016`,
+      delay: '.8s'
     },
     {
       job_title: `Community`,
@@ -137,7 +139,8 @@ export const aboutMeData = {
       learned many skills such as how to work as a team, contribute ideas, how to work correctly with other
       fields.`,
       start_date: `2016`,
-      end_date: `2017`
+      end_date: `2017`,
+      delay: '1.2s'
     },
   ],
 

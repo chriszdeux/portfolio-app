@@ -19,7 +19,7 @@ export const WorkExperience = () => {
         <ul className='work__experience'>
           {
             work_experience.map(job => (
-              <Job key={ job.job_title } job={ job }/>
+              <Job key={ job.job_title } values={{ job, isVisible }}/>
               ))
             }
         </ul>

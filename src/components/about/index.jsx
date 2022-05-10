@@ -17,7 +17,7 @@ export const About = () => {
       <div className='about' ref={ sectionRef }>
         <Divider section="About"/>
         <div className='about__me'>
-          <AboutContent />
+          <AboutContent isVisible={ isVisible }/>
           {/* <AboutMeDisplay /> */}
         </div>
       </div>
