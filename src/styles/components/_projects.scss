@@ -1,10 +1,20 @@
 .projects {
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
   padding: 1rem;
+  
   
   .project__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     
 
     .project__card {

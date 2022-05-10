@@ -1,0 +1,24 @@
+.mobile--menu {
+  div {
+
+  
+    ul {
+      padding: 0;
+      li {
+        p {
+          font-size: $regular-font;
+
+          &:active {
+            transform: scale(0.98);
+            opacity: .5;
+          }
+        }
+      }
+    }
+  }
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+
+  background-color: $background-color !important;
+}

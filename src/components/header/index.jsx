@@ -3,6 +3,8 @@ import AppBar from '@mui/material/AppBar';
 import { Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
 import { icons } from '../../utils/icons/icons';
 import { MenuFade } from '../helpers/MenuFade';
+import { MobileMenu } from './MobileMenu';
+import { DeskMenu } from './DeskMenu';
 
 const pages = ['Skills', 'Projects', 'About', 'Interested', 'Contact']
 export const Navbar = () => {
@@ -26,8 +28,8 @@ export const Navbar = () => {
   return (
     <>
       <AppBar position="fixed"  style={{ backgroundColor: 'rgba(0,0,0,0)', boxShadow: 'none' }}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+      <Container maxWidth="xl" style={{ backgroundColor: 'none' }}>
+        <Toolbar disableGutters style={{ backgroundColor: 'none' }}>
           <Typography
             variant="h6"
             noWrap
@@ -44,7 +46,7 @@ export const Navbar = () => {
           >
             CM Portfolio
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'flex-end' }} style={{ backgroundColor: 'none' }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -57,33 +59,10 @@ export const Navbar = () => {
                 menu_icon
               }
             </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
+            <MobileMenu values={{ anchorElNav, handleCloseNavMenu }}/>
           </Box>
-          
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
+          <DeskMenu values={{ anchorElNav }}/>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -93,7 +72,7 @@ export const Navbar = () => {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

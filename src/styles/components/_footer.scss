@@ -1,6 +1,10 @@
 .footer {
-  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  // margin-top: 50rem;
+  position: absolute;
   height: 12rem;
+  border-top: 1px solid $secondary-color;
   // border: 1px solid red;
   // background-color: $background-color;
   // border-top: 1px solid $secondary-color;
@@ -27,6 +31,7 @@
 
       }
     }
+
   }
 
   .footer__contact {
@@ -70,6 +75,13 @@
     }
   }
 }
+
+
+// @media only screen and  ( min-width:  376px) {
+//   .footer {
+//     margin-top: 80rem;
+//   }
+// }
 
 @keyframes rotate {
   0% {

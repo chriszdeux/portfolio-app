@@ -33,7 +33,7 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
     color: '#d84b24',
-    delay: '1s',
+    delay: '.1s',
   },
 
   {
@@ -45,7 +45,7 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     color: '#2B6CAD',
-    delay: '1.3s',
+    delay: '.2s',
   },
 
   {
@@ -57,7 +57,7 @@ export const skillsData = [
     `,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     color: '#ffe047',
-    delay: '1.6s',
+    delay: '.3s',
   },
 
   {
@@ -69,7 +69,7 @@ export const skillsData = [
     `,
     url: 'https://sass-lang.com/documentation',
     color: '#C26191',
-    delay: '1.9s',
+    delay: '.4s',
   },
 
   {
@@ -81,7 +81,7 @@ export const skillsData = [
     `,
     url: 'https://reactjs.org/docs/getting-started.html',
     color: '#58DAFB',
-    delay: '2.2s',
+    delay: '.5s',
   },
 
   {
@@ -93,7 +93,7 @@ export const skillsData = [
     `,
     url: 'https://react-redux.js.org/',
     color: '#764ABC',
-    delay: '2.5s',
+    delay: '.6s',
   },
 
 
@@ -106,7 +106,7 @@ export const skillsData = [
     `,
     url: 'https://git-scm.com/',
     color: '#d84b24',
-    delay: '2.8s',
+    delay: '.7s',
   },
 
   {
@@ -118,7 +118,7 @@ export const skillsData = [
     `,
     url: 'https://github.com/',
     color: '#e2e2e2',
-    delay: '3.1s',
+    delay: '.8s',
   },
 
 
@@ -132,7 +132,7 @@ export const skillsData = [
     `,
     url: 'https://www.npmjs.com/',
     color: '#C13534',
-    delay: '3.4s',
+    delay: '.9s',
   },
 
   {
@@ -144,7 +144,7 @@ export const skillsData = [
     `,
     url: 'https://developer.chrome.com/docs/devtools/',
     color: '#3A92FF',
-    delay: '3.7s',
+    delay: '1s',
   },
   {
     id: randomId(),
@@ -153,7 +153,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#72B254',
-    delay: '4s',
+    delay: '1.1s',
   },
   {
     id: randomId(),
@@ -162,7 +162,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#e2e2e2',
-    delay: '4.3s',
+    delay: '1.2s',
   },
   {
     id: randomId(),
@@ -171,7 +171,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#3C9237',
-    delay: '4.6s',
+    delay: '1.3s',
   },
   {
     id: randomId(),
@@ -180,7 +180,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#2F74C0',
-    delay: '4.9s',
+    delay: '1.4s',
   },
   {
     id: randomId(),
@@ -189,7 +189,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#BF3B14',
-    delay: '5.2s',
+    delay: '1.5s',
   },
   {
     id: randomId(),
@@ -198,7 +198,7 @@ export const skillsData = [
     description: ``,
     url: '',
     color: '#0076ED',
-    delay: '5.5s',
+    delay: '1.6s',
   },
   {
     id: randomId(),
@@ -206,8 +206,8 @@ export const skillsData = [
     name: 'Bootstrap',
     description: ``,
     url: '',
-    color: '#0076ED',
-    delay: '5.8s',
+    color: '#7952B3',
+    delay: '1.7s',
   },
   {
     id: randomId(),
@@ -215,8 +215,8 @@ export const skillsData = [
     name: 'REST Api',
     description: ``,
     url: '',
-    color: '#0076ED',
-    delay: '6.1s',
+    color: '#FAFAFB',
+    delay: '1.8s',
   },
   {
     id: randomId(),
@@ -224,8 +224,8 @@ export const skillsData = [
     name: 'Terminal',
     description: ``,
     url: '',
-    color: '#0076ED',
-    delay: '6.4s',
+    color: '#3C9237',
+    delay: '1.9s',
   },
 
 

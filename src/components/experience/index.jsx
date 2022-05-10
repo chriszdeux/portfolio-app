@@ -1,20 +1,30 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useIntersectionObserver } from '../../hooks/useIntersection'
 import { aboutMeData } from '../../utils/data/aboutData'
+import { animationsData } from '../../utils/data/animations'
 import { Divider } from '../helpers/Divider'
 import { Job } from './Job'
 
 export const WorkExperience = () => {
   const { work_experience } = aboutMeData
+  const { fade_in, fade_out } = animationsData
+  const sectionRef = useRef(null)
+  const isVisible = useIntersectionObserver(sectionRef)
   return (
-    <section className='experience container'>
-      <Divider section="Work Experience"/>
-      <ul className='work__experience'>
-        {
-          work_experience.map(job => (
-            <Job job={ job }/>
-          ))
-        }
-      </ul>
+    <section id="experience" className={ `container ${ isVisible ? fade_in : fade_out }` }  style={{
+      animationDelay: '.2s'
+    }}>
+      <div className='experience' ref={ sectionRef }>
+        <Divider section="Work Experience"/>
+        <ul className='work__experience'>
+          {
+            work_experience.map(job => (
+              <Job key={ job.job_title } job={ job }/>
+              ))
+            }
+        </ul>
+      </div>
+
     </section>
   )
 }

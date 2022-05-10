@@ -4,6 +4,7 @@
 
 @import './helpers';
 @import './components/hero';
+@import './components/header';
 @import './components/experience';
 @import './components/skills';
 @import './components/projects';
@@ -17,8 +18,19 @@
 
 .container {
   width: 95%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // display: grid;
   margin: 0 auto;
   padding: 1rem;
+  // border: 1px solid green;
+  // .projects {
+  //   height: 100%;
+  //   // overflow-y: auto;
+  // }
 }
 
 .btn {
@@ -34,6 +46,29 @@
   outline: 1px solid $secondary-color;
   color: $secondary-color;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $third-color;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $secondary-color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary-hover-color;
+}
+
+
 @media only screen and ( min-width: 768px ) {
   .container {
     width: 80%;

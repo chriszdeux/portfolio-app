@@ -1,27 +1,35 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { useIntersectionObserver } from '../../hooks/useIntersection';
 import { aboutMeData } from '../../utils/data/aboutData';
-import { skillsData } from '../../utils/data/skillsData';
-import { BottomFade } from '../helpers/BottomFade';
-import { RandomSkills } from './RandomSkills';
+import { animationsData } from '../../utils/data/animations';
+
 export const Hero = () => {
   const { contact } = aboutMeData;
+  const { fade_in, fade_out } = animationsData
   const [first, setfirst] = useState(false)
-
+  // const [handleAnimation, setHandleAnimation] = useState(fade_in)
+  const sectionRef = useRef(null)
+  const isVisible = useIntersectionObserver(sectionRef)
   useEffect(() => {
     setTimeout(() => {
       setfirst(true)
     }, 4000);
   }, [  ])
   return (
-    <main className='hero container'>
-      <div className='hero__content'>
+    <main id="main" className={`hero container ${ isVisible ? fade_in : fade_out }`} 
+
+      style={{
+        animationDelay: '.2s'
+      }}
+      >
+      <div className='hero__content'       ref={ sectionRef }>
         <h3>Hi, my name is</h3>
         <h2>Christian Meza</h2>
         <p>I'm a frontend developer currently focusing on React, <span>I love bringing new projects to life.</span></p>
         <ul className='hero__contact__list'>
           {
             contact.map(contact => (
-              <a href={ contact.link } target="_blank" rel="noreferrer">
+              <a key={ contact.name } href={ contact.link } target="_blank" rel="noreferrer">
                 <li>
                 { contact.icon }
                 </li>
@@ -30,6 +38,7 @@ export const Hero = () => {
           }
         </ul>
       </div>
+      
       {/* <figure className='hero__image'>
         {
           skillsData.map(skill => (
@@ -47,5 +56,6 @@ export const Hero = () => {
         <BottomFade />
       </figure> */}
     </main>
+
   )
 }
