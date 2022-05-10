@@ -6,7 +6,7 @@ import { Header } from './components/header';
 import { Navbar } from './components/header/index';
 import { BottomFade } from './components/helpers/BottomFade';
 import { LightBackground } from './components/helpers/LightBackground';
-import { SideNeon } from './components/helpers/SideNeon';
+import { SideBars } from './components/helpers/SideBars';
 import { Hero } from './components/hero';
 import { Projects } from './components/projects';
 import { Skills } from './components/Skils/Skills';
@@ -30,7 +30,7 @@ function App() {
       <WorkExperience />
       <Skills />
       <Projects /> 
-      <SideNeon />
+      <SideBars />
       {/* <Footer />
       {/* <LightBackground /> */}
     </div>

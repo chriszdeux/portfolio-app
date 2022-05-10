@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { SourceOfTheTruth } from '../../context/context'
 import { animationsData } from '../../utils/data/animations';
 
-export const SideNeon = () => {
+export const SideBars = () => {
   const { sideBars, setSideBars } = useContext(SourceOfTheTruth);
   const { fade_bottom, fade_top } = animationsData
   const { height } = sideBars

@@ -5,7 +5,7 @@ import { animationsData } from '../../utils/data/animations';
 
 export const Hero = () => {
   const { contact } = aboutMeData;
-  const { fade_in, fade_out } = animationsData
+  const { fade_in, fade_out, fade_left, fade_right, fade_bottom } = animationsData
   const [first, setfirst] = useState(false)
   // const [handleAnimation, setHandleAnimation] = useState(fade_in)
   const sectionRef = useRef(null)
@@ -22,11 +22,21 @@ export const Hero = () => {
         animationDelay: '.2s'
       }}
       >
-      <div className='hero__content'       ref={ sectionRef }>
-        <h3>Hi, my name is</h3>
-        <h2>Christian Meza</h2>
-        <p>I'm a frontend developer currently focusing on React, <span>I love bringing new projects to life.</span></p>
-        <ul className='hero__contact__list'>
+      <div className='hero__content'  ref={ sectionRef }>
+        <h3 className={ `${ isVisible ? fade_left : ''} ` } style={{
+          animationDelay: '.2s'
+        }}>Hi, my name is</h3>
+        <h2 className={ `${ isVisible ? fade_right  : ''}` } style={{
+          animationDelay: '.4s'
+        }}>Christian Meza</h2>
+        <p className={ `${ isVisible ? fade_left  : ''}` } style={{
+          animationDelay: '.6s'
+        }}>I'm a frontend developer currently focusing on React, <span className={ `${ isVisible ? fade_in  : ''}`} style={{
+          animationDelay: '2s'
+        }}>I love bringing new projects to life.</span></p>
+        <ul className={`hero__contact__list ${ isVisible ? fade_bottom : ''}`} style={{
+          animationDelay: '2.5s'
+        }}>
           {
             contact.map(contact => (
               <a key={ contact.name } href={ contact.link } target="_blank" rel="noreferrer">
