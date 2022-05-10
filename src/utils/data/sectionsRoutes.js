@@ -25,8 +25,8 @@ export const sectionsRoutes = [
     height_bars: '60rem'
   },
   {
-    section: 'Interest',
-    route: '#interest',
+    section: 'Others',
+    route: '#others',
     height_bars: '70rem'
   },
 ]

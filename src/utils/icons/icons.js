@@ -1,17 +1,20 @@
 import React from 'react'
-import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux, SiExpress, SiMongodb, SiTypescript, SiJest, SiMaterialui   } from 'react-icons/si';
+import { SiHtml5  , SiCss3  , SiJavascript  , SiSass  , SiReact , SiGithub, SiRedux, SiExpress, SiMongodb, SiTypescript, SiJest, SiMaterialui, SiAdobeillustrator, SiAdobephotoshop, SiUnrealengine, SiUnity, SiPostman   } from 'react-icons/si';
 import { DiGit, DiNpm } from 'react-icons/di'
-import { AiFillEye, AiFillInstagram, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineLoading3Quarters, AiOutlineMail, AiOutlineApi } from 'react-icons/ai'
+import { AiFillEye, AiFillInstagram, AiOutlineGooglePlus, AiOutlineLinkedin, AiOutlineLoading3Quarters, AiOutlineMail, AiOutlineApi, AiOutlineLineChart } from 'react-icons/ai'
 import { RiExternalLinkFill, RiFolderInfoFill } from 'react-icons/ri' 
 import { VscDebugConsole, VscChromeClose } from 'react-icons/vsc';
 import { IoChevronBackOutline, IoChevronForwardOutline, IoChevronUpOutline } from 'react-icons/io5'
 import { CgMenuRight } from 'react-icons/cg';
 import { ImImages } from 'react-icons/im'
-import { MdOutlineMailOutline, MdOutlineMarkEmailRead } from 'react-icons/md'
-import { BsFillCloudDownloadFill, BsBootstrap, BsTerminal } from 'react-icons/bs'
+import { MdOutlineMailOutline, MdOutlineMarkEmailRead, MdOutlineReportProblem, MdOutlineGpsNotFixed, MdOutlineDesignServices, MdDirectionsWalk } from 'react-icons/md'
+import { BsFillCloudDownloadFill, BsBootstrap, BsTerminal, BsFileBarGraph } from 'react-icons/bs'
 import { GrNode } from 'react-icons/gr'
-
-
+import { FaThinkPeaks, FaGamepad } from 'react-icons/fa'
+import { GiThreeFriends, GiTalk, GiSittingDog } from 'react-icons/gi'
+import { RiOrganizationChart, RiMovie2Line } from 'react-icons/ri'
+import { GoBook } from 'react-icons/go'
+import { HiOutlineVideoCamera } from 'react-icons/hi'
 export const icons = {
   html_icon: <SiHtml5 className='icon'/>,
   css_icon: <SiCss3 className='icon'/>,
@@ -48,6 +51,26 @@ export const icons = {
   bootstrap_icon: <BsBootstrap className='icon'/>,
   api_icon: <AiOutlineApi className='icon'/>,
   terminal_icon: <BsTerminal className='icon'/>,
+  think_icon: <FaThinkPeaks className='icon'/>,
+  friendly_icon: <GiThreeFriends className='icon'/>,
+  organization_icon: <RiOrganizationChart className='icon'/>,
+  conflict_icon: <MdOutlineReportProblem className='icon'/>,
+  talk_icon: <GiTalk className='icon'/>,
+  target_icon: <MdOutlineGpsNotFixed className='icon'/>,
+  detail_icon: <MdOutlineDesignServices className='icon'/>,
+  illustrator_icon: <SiAdobeillustrator className='icon'/>,
+  photopshop_icon: <SiAdobephotoshop className='icon'/>,
+  unreal_icon: <SiUnrealengine className='icon'/>,
+  unity_icon: <SiUnity className='icon'/>,
+  file_icon: <BsFileBarGraph className='icon'/>,
+  game_icon: <FaGamepad className='icon'/>,
+  video_icon: <HiOutlineVideoCamera className='icon'/>,
+  book_icon: <GoBook className='icon'/>,
+  walk_icon: <MdDirectionsWalk className='icon'/>,
+  movie_icon: <RiMovie2Line className='icon'/>,
+  investment_icon: <AiOutlineLineChart className='icon'/>,
+  dog_icon: <GiSittingDog className='icon'/>,
+  postman_icon: <SiPostman className='icon'/>,
 
   // gallery_icon: <ImImages className='icon'/>,
 }

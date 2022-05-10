@@ -1,0 +1,33 @@
+.others {
+  width: 100%;
+  margin-top: 5rem;
+
+  .others__list {
+    display: grid;
+
+    .other__list {
+      flex-shrink: 0;
+      margin-bottom: 2rem;
+
+      h3 {
+        font-size: $large-font;
+        color: $secondary-color;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        li {
+          font-size: $regular-font;
+          color: $main-color;
+          margin-bottom: 1rem;
+          span {
+            margin-right: 1rem;
+            .icon {
+              font-size: $large-font;
+            }
+          }
+        }
+      }
+    }
+  }
+}

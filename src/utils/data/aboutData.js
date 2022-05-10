@@ -150,7 +150,6 @@ export const aboutMeData = {
     'Watch animes with good narrative stories',
     'Insvestments, in special cryptocurrencies',
     'I love dogs ( I have 3 :) )',
-    '',
   ],
   contact: [
     {

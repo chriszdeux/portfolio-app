@@ -19,7 +19,7 @@ export const About = () => {
         <div className='about__me'>
           <AboutContent isVisible={ isVisible }/>
           {/* <AboutMeDisplay /> */}
-        </div>
+        </div>       
       </div>
       {/* <AboutInterest /> */}
     </section>

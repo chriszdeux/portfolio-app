@@ -21,7 +21,27 @@ const {
   material_icon,
   terminal_icon,
   api_icon,
-  bootstrap_icon  
+  bootstrap_icon,
+  think_icon,
+  friendly_icon,
+  organization_icon,
+  conflict_icon,
+  talk_icon,
+  target_icon,
+  detail_icon,
+  illustrator_icon,
+  photopshop_icon,
+  unreal_icon,
+  unity_icon,
+  file_icon,
+  game_icon,
+  video_icon,
+  book_icon,
+  walk_icon,
+  movie_icon,
+  investment_icon,
+  dog_icon,
+  postman_icon
 } = icons
 export const skillsData = [
   {
@@ -227,6 +247,119 @@ export const skillsData = [
     color: '#3C9237',
     delay: '1.9s',
   },
+  {
+    id: randomId(),
+    icon: postman_icon,
+    name: 'Postman',
+    description: ``,
+    url: '',
+    color: '#F46835',
+    delay: '2s',
+  },
 
 
+]
+
+export const softSkillsData = [
+  {
+    skill: 'Critical Thinking',
+    icon: think_icon,
+    color: '#53d653'
+  },
+  {
+    skill: 'Friendly, Positive Attitude',
+    icon: friendly_icon,
+    color: '#5c7bdb'
+  },
+  {
+    skill: 'Organization Skills',
+    icon: organization_icon,
+    color: '#c26191'
+  },
+  {
+    skill: 'Conflict Resolution',
+    icon: conflict_icon,
+    color: '#af9a79'
+  },
+  {
+    skill: 'Spanish / English',
+    icon: talk_icon,
+    color: '#fafafa'
+  },
+  {
+    skill: 'Problem Resolution',
+    icon: target_icon,
+    color: '#FF4B4B'
+  },
+  {
+    skill: 'Attention to Detail',
+    icon: detail_icon,
+    color: '#bc9bc1'
+  },
+]
+
+export const basicSkills = [
+  {
+    skill: 'Photoshop',
+    icon: photopshop_icon,
+    color: '#2FA3F7'
+  },
+  {
+    skill: 'Illustrator',
+    icon: illustrator_icon,
+    color: '#F79500'
+  },
+  {
+    skill: `Land creation with  Unreal Engine 3`,
+    icon: unreal_icon,
+    color: '#8B0505'
+  },
+  {
+    skill: `Land creation with Unidity 3D`,
+    icon: unity_icon,
+    color: '#F2F2F2'
+  },
+  {
+    skill: 'Maya',
+    icon: file_icon,
+    color: '#79AEB1'
+  },
+  {
+    skill: 'Game design',
+    icon: game_icon,
+    color: '#db8ee5'
+  },
+  {
+    skill: 'Video edition',
+    icon: video_icon,
+    color: '#d3d3d3'
+  },
+]
+
+export const hobbies = [
+  {
+    hobbie: 'Lecture',
+    icon: book_icon,
+    color: '#4984d1'
+  },
+  {
+    hobbie: 'Walk in the evenings with my wife',
+    icon: walk_icon,
+    color: '#7bc47f'
+  },
+  {
+    hobbie: 'Watch animes with good narrative stories',
+    icon: movie_icon,
+    color: '#d64298'
+  },
+  {
+    hobbie: 'Insvestments, in special cryptocurrencies',
+    icon: investment_icon,
+    color: '#90e263'
+  },
+  {
+    hobbie: 'I love dogs ( I have 3 :) )',
+    icon: dog_icon,
+    color: '#f79500'
+  },
 ]

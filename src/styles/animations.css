@@ -1,0 +1,101 @@
+.fliker {
+  -webkit-animation: neon-fliker 2s 1 both;
+          animation: neon-fliker 2s 1 both;
+}
+
+@-webkit-keyframes neon-fliker {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: .5;
+  }
+  10% {
+    opacity: .3;
+  }
+  12% {
+    opacity: 1;
+  }
+  20% {
+    opacity: .8;
+  }
+  23% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .1;
+  }
+  55% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes neon-fliker {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: .5;
+  }
+  10% {
+    opacity: .3;
+  }
+  12% {
+    opacity: 1;
+  }
+  20% {
+    opacity: .8;
+  }
+  23% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: .6;
+  }
+  50% {
+    opacity: .1;
+  }
+  55% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=animations.css.map */

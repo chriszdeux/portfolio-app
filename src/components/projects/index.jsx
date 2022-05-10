@@ -12,14 +12,14 @@ export const Projects = () => {
   return (
     <section id="projects" className={`container ${ isVisible ? fade_in : fade_out }`}  style={{
       animationDelay: '.2s'
-    }}>
+    }} ref={ sectionRef }>
       <div className='projects' >
 
       <Divider section="Projects"/>
-      <ul className='project__cards' ref={ sectionRef }>
+      <ul className='project__cards' >
         {
         projects.map(project => (
-          <ProjectCard key={ project.id } project={ project }/>
+          <ProjectCard key={ project.id } values={{ project, isVisible }}/>
           ))
         }
       </ul>

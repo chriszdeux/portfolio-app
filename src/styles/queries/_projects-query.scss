@@ -11,8 +11,13 @@
           height: 40rem;
           width: 70%;
           // margin-right: 10rem;
-
           filter: grayscale(1) blur(.3rem);
+          overflow: hidden;
+          img {
+            transition:  .3s ease;
+
+          }
+
         }
         .project__info {
           opacity: 1;
@@ -29,6 +34,9 @@
         &:hover .project__screenshot{
           filter: grayscale(0) blur(0);
           opacity: 1;
+          img {
+            transform: scale(1.1);
+          }
         }
         &:hover .project__info{
           width: 60%;
