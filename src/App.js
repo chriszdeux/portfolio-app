@@ -10,6 +10,7 @@ import { Hero } from './components/hero';
 import { Others } from './components/others';
 import { Projects } from './components/projects';
 import { Skills } from './components/Skils/Skills';
+import { Footer } from './components/footer/index';
 import { SourceOfTheTruth } from './context/context';
 import logo from './logo.svg';
 
@@ -30,8 +31,8 @@ function App() {
       <Skills />
       <Projects /> 
       <Others />
+      <Footer />
       <SideBars />
-      {/* <Footer />
       {/* <LightBackground /> */}
     </div>
     </SourceOfTheTruth.Provider>

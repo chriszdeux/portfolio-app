@@ -1,10 +1,12 @@
-// @media only screen and ( min-width: 376px )  {
-//   .skills {
-//       margin-top:35rem;
-//       margin-bottom:55rem;
-//   }
-// }
-
+@media only screen and ( min-width: 414px ) {
+  .skills {
+    div {
+      .skill__list {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
 @media only screen and ( min-width: 768px ) {
   .skills {
     div {

@@ -1,5 +1,4 @@
-import React, { useRef } from 'react'
-import { useIntersectionObserver } from '../../hooks/useIntersection'
+import React, { useRef } from 'react';
 import { animationsData } from '../../utils/data/animations'
 
 export const Divider = ({values}) => {

@@ -8,7 +8,7 @@ import { IoChevronBackOutline, IoChevronForwardOutline, IoChevronUpOutline } fro
 import { CgMenuRight } from 'react-icons/cg';
 import { ImImages } from 'react-icons/im'
 import { MdOutlineMailOutline, MdOutlineMarkEmailRead, MdOutlineReportProblem, MdOutlineGpsNotFixed, MdOutlineDesignServices, MdDirectionsWalk } from 'react-icons/md'
-import { BsFillCloudDownloadFill, BsBootstrap, BsTerminal, BsFileBarGraph } from 'react-icons/bs'
+import { BsFillCloudDownloadFill, BsBootstrap, BsTerminal, BsFileBarGraph, BsArrowUpSquareFill, BsArrowDownSquareFill } from 'react-icons/bs'
 import { GrNode } from 'react-icons/gr'
 import { FaThinkPeaks, FaGamepad } from 'react-icons/fa'
 import { GiThreeFriends, GiTalk, GiSittingDog } from 'react-icons/gi'
@@ -38,7 +38,7 @@ export const icons = {
   mail_sent_icon: <MdOutlineMarkEmailRead className='icon'/>,
   linkedin_icon: <AiOutlineLinkedin className='icon'/>,
   instagram_icon: <AiFillInstagram className='icon'/>,
-  top_icon: <IoChevronUpOutline className='icon'/>,
+  // top_icon: <IoChevronUpOutline className='icon'/>,
   gallery_icon: <ImImages className='icon'/>,
   loading_icon: <AiOutlineLoading3Quarters className='icon'/>,
   download_icon: <BsFillCloudDownloadFill className='icon'/>,
@@ -70,7 +70,9 @@ export const icons = {
   movie_icon: <RiMovie2Line className='icon'/>,
   investment_icon: <AiOutlineLineChart className='icon'/>,
   dog_icon: <GiSittingDog className='icon'/>,
-  postman_icon: <SiPostman className='icon'/>,
+  postman_icon: <BsArrowDownSquareFill className='icon'/>,
+  down_icon: <BsArrowDownSquareFill className='icon'/>,
+  top_icon: <BsArrowUpSquareFill className='icon'/>,
 
   // gallery_icon: <ImImages className='icon'/>,
 }

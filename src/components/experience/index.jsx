@@ -16,7 +16,7 @@ export const WorkExperience = () => {
       animationDelay: '.2s'
     }}>
       <div className='experience' ref={ sectionRef }>
-        <Divider section="Work Experience" values={{ sectionRef, isVisible, section }}/>
+        <Divider  values={{ sectionRef, isVisible, section }}/>
         <ul className='work__experience'>
           {
             work_experience.map(job => (

@@ -11,7 +11,10 @@ export const Job = ({values}) => {
       <p>{ description }</p>
       <div>
         <p>Start date: { start_date }</p>
+        {
+          end_date &&
         <p>End date: { end_date }</p>
+        }
       </div>
     </li>
   )
