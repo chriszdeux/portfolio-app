@@ -7,13 +7,14 @@ import { Hobbies } from './Hobbies'
 import { SoftSkills } from './SoftSkills'
 
 export const Others = () => {
+  const section = "Others"
   const { fade_in } = animationsData
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
   return (
     <section id="others" className={`container ${ isVisible ?  fade_in : '' }`}>
-      <div className='others' ref={ sectionRef }>
-        <Divider section="Others"/>
+      <div className='others' >
+        <Divider values={{ sectionRef, isVisible, section }} />
         <div className='others__list'  style={{ animationDelay: '.5s' }}>
           <SoftSkills isVisible={ isVisible }/>
           <BasicSkills isVisible={ isVisible }/>

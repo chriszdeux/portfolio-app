@@ -6,6 +6,7 @@ import { Divider } from '../helpers/Divider'
 import { Job } from './Job'
 
 export const WorkExperience = () => {
+  const section = "Work Experience"
   const { work_experience } = aboutMeData
   const { fade_in, fade_out } = animationsData
   const sectionRef = useRef(null)
@@ -15,7 +16,7 @@ export const WorkExperience = () => {
       animationDelay: '.2s'
     }}>
       <div className='experience' ref={ sectionRef }>
-        <Divider section="Work Experience"/>
+        <Divider section="Work Experience" values={{ sectionRef, isVisible, section }}/>
         <ul className='work__experience'>
           {
             work_experience.map(job => (

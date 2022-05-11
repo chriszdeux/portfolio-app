@@ -1,7 +1,7 @@
 import { Menu, MenuItem, Typography } from '@mui/material'
 import React from 'react'
 import { sectionsRoutes } from '../../utils/data/sectionsRoutes'
-
+const resume = 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume.pdf?alt=media&token=f8698868-4e8f-4b0c-b117-bd42569e63ff'
 export const MobileMenu = ({ values }) => {
   const { anchorElNav, handleCloseNavMenu } = values
   return (
@@ -29,18 +29,29 @@ export const MobileMenu = ({ values }) => {
       }}
     >
       {sectionsRoutes.map((page) => (
-        <MenuItem key={page.section} onClick={handleCloseNavMenu} style={{ 
+        <MenuItem key={page.section} href={ page.route } onClick={handleCloseNavMenu} style={{ 
           width: '20rem',
           backgroundColor: '#04101B',
           display: 'flex',
           justifyContent: 'center',
+          color: '#FAFAFB',
 
          }} >
 
-            <a href={ page.route } style={{ fontSize: '1.6rem', textDecoration: 'none', color: '#FAFAFB' }}>{ page.section }</a>
+            { page.section }
 
         </MenuItem>
       ))}
+      <MenuItem href={ resume } target="_blank" style={{ 
+          width: '20rem',
+          backgroundColor: '#04101B',
+          display: 'flex',
+          justifyContent: 'center',
+          color: '#0AAEFE',
+
+         }}>
+         Resume
+      </MenuItem>
     </Menu>
   )
 }

@@ -6,6 +6,7 @@ import { Divider } from '../helpers/Divider'
 import { ListSkills } from './ListSkills'
 
 export const Skills = () => {
+  const section = "Skills"
   const { fade_in, fade_out } = animationsData
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
@@ -14,7 +15,7 @@ export const Skills = () => {
       animationDelay: '.2s'
     }}>
       <div className='skills'  >
-        <Divider section="Skills"/>
+        <Divider values={{ sectionRef, isVisible, section }}/>
         <h2>Technologies with which I've worked</h2>
         <div>
           <ListSkills values={ {isVisible, sectionRef} }/>

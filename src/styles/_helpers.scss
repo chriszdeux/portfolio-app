@@ -46,9 +46,10 @@
 }
 
 .bottom--fade {
-  width: 100%;
+  width: 120%;
   height: 10rem;
   position: absolute;
+  left: -1rem;
   bottom: -3rem;
   background: $bottom-fade;
 }
@@ -58,6 +59,8 @@
   height: 5rem;
   position: absolute;
   top: -1rem;
+  left: -1rem;
+
   background: $top-fade;
 }
 
@@ -66,7 +69,7 @@
   height: inherit;
   position: absolute;
   right: -1rem;
-  bottom: 0;
+  bottom: -1rem;
   background: $rigth-fade;
 }
 

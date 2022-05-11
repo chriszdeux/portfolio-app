@@ -6,6 +6,7 @@ import { Divider } from '../helpers/Divider'
 import { ProjectCard } from './ProjectCard'
 
 export const Projects = () => {
+  const section = "Projects"
   const { fade_in, fade_out } = animationsData
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
@@ -15,8 +16,8 @@ export const Projects = () => {
     }} ref={ sectionRef }>
       <div className='projects' >
 
-      <Divider section="Projects"/>
-      <ul className='project__cards' >
+      <Divider values={{ sectionRef, isVisible, section }}/>
+      <ul className={`project__cards ${ isVisible ? fade_in : '' }`} style={{ MozAnimationDelay: '2s' }}>
         {
         projects.map(project => (
           <ProjectCard key={ project.id } values={{ project, isVisible }}/>

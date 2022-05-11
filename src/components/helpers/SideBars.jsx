@@ -31,8 +31,8 @@ export const SideBars = () => {
   }, [ sideBars ])
   return (
     <div className='side__bars'>
-      { left !== null && left }
-      { right !== null && right }
+      <canvas className='left'></canvas>
+      <canvas className='right'></canvas>
       
     </div>
   )
