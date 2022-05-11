@@ -1,6 +1,17 @@
-@media only screen and ( min-width: 768px ) {
+@media only screen and ( min-width: 414px ) {
   .projects {
     .project__cards {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and ( min-width: 768px ) {
+  .projects {
+    height: 100% !important;
+    .project__cards {
+      width: 100%;
       .project__card {
         // width: 60rem;
         height: 35rem;
@@ -68,6 +79,8 @@
     }
   }
 }
+
+
 
 @media only screen and ( min-width: 1440px ) {
   .projects {

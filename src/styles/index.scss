@@ -19,6 +19,11 @@
 @import './queries/others-query';
 
 
+
+main {
+  width: 100%;
+  height: 100vh;
+}
 section {
   &:nth-child(7) {
     height: 120rem;
@@ -27,7 +32,7 @@ section {
 }
 .container {
   width: 95%;
-  height: 100vh;
+  height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -83,6 +88,7 @@ section {
 @media only screen and ( min-width: 768px ) {
   .container {
     width: 80%;
+    height: 100vh;
   }
 }
 @media only screen and ( min-width: 1024px ) {
