@@ -71,6 +71,15 @@
   background: $rigth-fade;
 }
 
+.left--fade {
+  width: 10rem;
+  height: inherit;
+  position: absolute;
+  left: -1rem;
+  bottom: 0;
+  background: $left-fade;
+}
+
 .light--background {
   width: 20rem;
   height: 20rem;

@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // overflow: hidden;
+  overflow: hidden;
   h2 {
     // position: absolute;
     // left: 50%;
@@ -74,7 +74,7 @@
   div {
     position: absolute;
     left: 50%;
-    bottom: -15rem;
+    bottom: -19rem;
     transform: translateX(-50%);
     z-index: -1;
     opacity: .1;

@@ -2,12 +2,13 @@ import { randomId } from "../../functions/randomId";
 import { icons } from "../icons/icons";
 
 export const aboutMeData = {
-  about_me: `
-  The reason that motivated me to start programming and what continues to motivate me today is that I can create things that solve problems for people and also work on your creativity.
-  What I program can be seen and worked with visually.\n
-  
-  I am a person who always likes to analyze the situation before making a decision and once I have several possible answers I always lean towards the one that I think is the most optimal at the moment. I seek to implement more things as they are required and this makes me constantly learn.
-  `,
+  about_me: [
+    `I started in the world of development a little over 10 years ago, when I tried to develop a video game on my own. The reason why I decided to focus on web development is because I can solve people's problems and that you can see immediately.`,
+    `Working together with the designers and seeing the creativity they have and that I can translate it into code I think is fantastic`,
+    `Currently I am dedicated to Frontend development with the MERN stack and
+    in my free time I dedicated to my personal CryptoAnt project, where in the future I will teach the basics so that people learn to invest.`
+
+  ],
   short_version: `I'm a person who likes to solve things, I like technology but I would like to focus on Blockchain, I think we should all learn a little bit of programming basics, you can apply it to real life.
   
   Throughout 2021 I tried to learn, not just watching videos trying to follow in the footsteps of the master, I dedicated myself to really learning the technologies.
@@ -141,6 +142,14 @@ export const aboutMeData = {
       start_date: `2016`,
       end_date: `2017`,
       delay: '1.2s'
+    },
+    {
+      job_title: `Inkfluencer`,
+      description: `I'm currently working on a Startup called Inkfluencer which is focused on the world of
+      NFT's. My role is as a frontend developer using technologies like React and Material UI.`,
+      start_date: `March/2022`,
+      end_date: null,
+      delay: '1.5s'
     },
   ],
 
