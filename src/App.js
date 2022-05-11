@@ -33,7 +33,7 @@ function App() {
       <Projects /> 
       <Others />
       <SideBars />
-      {/* <Footer />
+      <Footer />
       {/* <LightBackground /> */}
     </div>
     </SourceOfTheTruth.Provider>

@@ -3,7 +3,7 @@ import { icons } from "../icons/icons";
 
 export const aboutMeData = {
   about_me: `
-  My name is Christian Meza and I am a front end developer with a special focus on React js. The reason that motivated me to start programming and what continues to motivate me today is that I can create things that solve problems for people and also work on your creativity.
+  The reason that motivated me to start programming and what continues to motivate me today is that I can create things that solve problems for people and also work on your creativity.
   What I program can be seen and worked with visually.\n
   
   I am a person who always likes to analyze the situation before making a decision and once I have several possible answers I always lean towards the one that I think is the most optimal at the moment. I seek to implement more things as they are required and this makes me constantly learn.

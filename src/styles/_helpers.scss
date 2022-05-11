@@ -46,9 +46,10 @@
 }
 
 .bottom--fade {
-  width: 100%;
+  width: 105%;
   height: 10rem;
   position: absolute;
+  left: -1rem;
   bottom: -3rem;
   background: $bottom-fade;
 }

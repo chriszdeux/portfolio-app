@@ -18,6 +18,7 @@
       font-size: $regular-font;
       color: $secondary-color;
       font-weight: $regular-weigth;
+      text-shadow:  $secondary-color 1px 0 10px;
       text-align: start;
     }
     h2 {
@@ -33,6 +34,7 @@
       text-align: end;
       span {
         color: $secondary-color;
+        text-shadow:  $secondary-color 1px 0 10px;
       }
       // text-align: end;
     }
@@ -48,7 +50,11 @@
         li {
 
           .icon {
-            color: $third-color
+            color: $third-color;
+            transition: .3s linear;
+            &:hover {
+              color: $main-color;
+            }
           }
         }
       }

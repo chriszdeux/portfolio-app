@@ -15,7 +15,7 @@ export const Skills = () => {
     }}>
       <div className='skills'  >
         <Divider section="Skills"/>
-        <h2>Technologies with which I've worked</h2>
+        {/* <h2>Technologies with which I've worked</h2> */}
         <div>
           <ListSkills values={ {isVisible, sectionRef} }/>
         </div>
