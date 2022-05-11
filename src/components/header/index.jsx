@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import { Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
 import { icons } from '../../utils/icons/icons';
-import { MenuFade } from '../helpers/MenuFade';
 import { MobileMenu } from './MobileMenu';
 import { DeskMenu } from './DeskMenu';
 
@@ -27,7 +26,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <AppBar position="fixed"  style={{ backgroundColor: 'rgba(0,0,0,0)', boxShadow: 'none' }}>
+      <AppBar position="fixed"  style={{ background: '#04101B', boxShadow: 'none' }}>
       <Container maxWidth="xl" style={{ backgroundColor: 'none' }}>
         <Toolbar disableGutters style={{ backgroundColor: 'none' }}>
           <Typography
@@ -76,7 +75,6 @@ export const Navbar = () => {
         </Toolbar>
       </Container>
     </AppBar>
-    <MenuFade />
     </>
   )
 }

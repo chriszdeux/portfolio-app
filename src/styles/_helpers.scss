@@ -51,7 +51,7 @@
   position: absolute;
   left: -1rem;
   bottom: -3rem;
-  background: $background2-color;
+  background: $bottom-fade-web;
   background: $bottom-fade;
 }
 
@@ -61,28 +61,28 @@
   position: absolute;
   top: -1rem;
   left: -1rem;
-  background: $background2-color;
+  background: $top-fade-web;
 
   background: $top-fade;
 }
 
 .right--fade {
   width: 15rem;
-  height: inherit;
+  height: 110%;
   position: absolute;
   right: -1rem;
   bottom: -1rem;
-  background: $background2-color;
-  background: $rigth-fade;
+  background: $right-fade-web;
+  background: $right-fade;
 }
 
 .left--fade {
   width: 10rem;
-  height: inherit;
+  height: 110%;
   position: absolute;
   left: -1rem;
   bottom: 0;
-  background: $background2-color;
+  background: $left-fade-web;
   background: $left-fade;
 }
 
