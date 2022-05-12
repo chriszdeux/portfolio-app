@@ -225,8 +225,12 @@ a.nostyle:visited {
   position: absolute;
   right: -1rem;
   bottom: -1rem;
+  background: moz-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, #04101b 76%);
+  background: webkit-gradient(-90deg, rgba(255, 255, 255, 0) 0%, #04101b 76%);
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(76%, #04101b));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #04101b 76%);
+  background: #ffad26;
+  /* Old browsers */
 }
 
 .left--fade {

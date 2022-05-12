@@ -15,6 +15,12 @@ $right-fade-web: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(4,16,27,1
 $left-fade: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
 $left-fade-web: -webkit-linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(4,16,27,1) 76%);
 
+
+$left-fade-01: moz-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+$left-fade-02: webkit-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+$left-fade-03: -o-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+$left-fade-04: -ms-linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(4,16,27,1) 76%);
+
 $box-shadow: 0 0 17px 1px $secondary-color;
 $html-color: #d84b24;
 // $html-color-active: #D84B24;

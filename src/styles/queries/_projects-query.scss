@@ -8,8 +8,12 @@
 }
 
 @media only screen and ( min-width: 768px ) {
+  .project--expand {
+    width: 80%;
+    
+  }
   .projects {
-    height: 100% !important;
+    // height: 100% !important;
     .project__cards {
       width: 100%;
       .project__card {
@@ -80,10 +84,17 @@
   }
 }
 
+@media only screen and ( min-width: 1024px ) {
+  .project--expand {
+    width: 70%;
+  }
+}
+
 
 
 @media only screen and ( min-width: 1440px ) {
   .projects {
+    height: 100%;
     .project__cards {
       .project__card {
         // overflow: hidden;
@@ -107,4 +118,21 @@
       }
     }
   }
-}
+
+  .project--expand  {
+    height: 100%; 
+    
+    }
+  }
+
+  @media only screen and ( min-width: 1600px ) {
+    .project--expand {
+      width: 60%;
+    }
+  }
+
+  @media only screen and ( min-width: 1920px ) {
+    .project--expand {
+      width: 50%;
+    }
+  }

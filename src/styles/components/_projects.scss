@@ -182,3 +182,15 @@
     }
   }
 }
+
+.project--expand {
+  width: 95%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // display: grid;
+  margin: 0 auto;
+  padding: 1rem;
+}
