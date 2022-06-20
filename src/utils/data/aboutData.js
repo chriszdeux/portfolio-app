@@ -1,6 +1,5 @@
 import { randomId } from "../../functions/randomId";
 import { icons } from "../icons/icons";
-
 export const aboutMeData = {
   about_me: [
     `I started in the world of development a little over 10 years ago, when I tried to develop a video game on my own. The reason why I decided to focus on web development is because I can solve people's problems and that you can see immediately.`,
@@ -207,6 +206,6 @@ export const aboutMeData = {
     color: '#BF3B14'
   },
   ],
-  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume_C.pdf?alt=media&token=751593cf-f811-4086-9730-ec4e370c0742'
+  resume: 'https://drive.google.com/file/d/1kLEoguSFcF2p2g4-eJ1VIq3_HjtJCgXR/view?usp=sharing',
 }
 

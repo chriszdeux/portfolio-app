@@ -1,7 +1,7 @@
 import { Box, Button } from '@mui/material'
 import React from 'react'
 import { sectionsRoutes } from '../../utils/data/sectionsRoutes'
-const resume = 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume.pdf?alt=media&token=f8698868-4e8f-4b0c-b117-bd42569e63ff';
+const resume = 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume%20.pdf?alt=media&token=68bfb6d4-799a-46ff-b002-5a72b4d0ff84';
 export const DeskMenu = ({ values }) => {
   const { anchorElNav } = values
   // const navigate = useNavigate()
