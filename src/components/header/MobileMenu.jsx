@@ -35,7 +35,8 @@ export const MobileMenu = ({ values }) => {
           display: 'flex',
           justifyContent: 'center',
           color: '#FAFAFA',
-          marginBottom: '1rem'
+          marginBottom: '1rem',
+          borderRadius: '0'
          }} >
 
           { page.section }
@@ -47,6 +48,7 @@ export const MobileMenu = ({ values }) => {
           backgroundColor: '#04101B',
           display: 'flex',
           justifyContent: 'center',
+          borderRadius: '0'
 
          }} href={ resume } target="_blank">
            Resume

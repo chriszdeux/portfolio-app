@@ -1,6 +1,5 @@
 import { randomId } from "../../functions/randomId";
 import { icons } from "../icons/icons";
-
 export const aboutMeData = {
   about_me: [
     `I started in the world of development a little over 10 years ago, when I tried to develop a video game on my own. The reason why I decided to focus on web development is because I can solve people's problems and that you can see immediately.`,

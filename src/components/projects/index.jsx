@@ -11,10 +11,10 @@ export const Projects = () => {
   const sectionRef = useRef(null)
   const isVisible = useIntersectionObserver(sectionRef)
   return (
-    <section id="projects" className={`container ${ isVisible ? fade_in : fade_out }`}  style={{
+    <section id="projects" className={` project--expand ${ isVisible ? fade_in : fade_out }`}  style={{
       animationDelay: '.2s'
     }} ref={ sectionRef }>
-      <div className='projects' >
+      <div className='projects ' >
 
       <Divider values={{ sectionRef, isVisible, section }}/>
       <ul className={`project__cards ${ isVisible ? fade_in : '' }`} style={{ MozAnimationDelay: '2s' }}>
