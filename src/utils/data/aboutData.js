@@ -122,16 +122,24 @@ export const aboutMeData = {
       description: `In this company I had the role as a frontend developer where I was only in charge of making
       the frontend and connecting it with a database. Here I work with html, css and php.`,
       start_date: `November/2013`,
-      end_date: `February/2014`,
+      end_date: `February/2015`,
       delay: '.4s'
     },
     {
       job_title: `Boiler Ochoa`,
       description: `In this company I had the role of systems manager, I was in control of the website, the server
       and the networks. As well as helping the boss solve remote problems. `,
-      start_date: `April/2014`,
-      end_date: `November/2016`,
+      start_date: `April/2015`,
+      end_date: `November/2017`,
       delay: '.8s'
+    },
+    {
+      job_title: `Linguas IT`,
+      description: `In this company my role was to teach Microsoft Office courses and introduction to the web
+      with technologies such as HTML5, CSS3, and Bootstrap 3.`,
+      start_date: `May/2017`,
+      end_date: `September/2017`,
+      delay: '1.2s'
     },
     {
       job_title: `Community`,
@@ -139,9 +147,9 @@ export const aboutMeData = {
       Mexico. Many projects never materialized in some I had to leave the project. In this community I also
       learned many skills such as how to work as a team, contribute ideas, how to work correctly with other
       fields.`,
-      start_date: `2016`,
-      end_date: `2017`,
-      delay: '1.2s'
+      start_date: `2018`,
+      end_date: `2019`,
+      delay: '1.6s'
     },
     {
       job_title: `Inkfluencer`,
@@ -149,7 +157,7 @@ export const aboutMeData = {
       NFT's. My role is as a frontend developer using technologies like React and Material UI.`,
       start_date: `March/2022`,
       end_date: null,
-      delay: '1.5s'
+      delay: '2s'
     },
   ],
 
@@ -207,6 +215,6 @@ export const aboutMeData = {
     color: '#BF3B14'
   },
   ],
-  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume_C.pdf?alt=media&token=751593cf-f811-4086-9730-ec4e370c0742'
+  resume: 'https://firebasestorage.googleapis.com/v0/b/proyects-screenshots.appspot.com/o/ChristianMezaResume.pdf?alt=media&token=c6d48a38-6324-40ad-841a-681dc579a0e8'
 }
 
